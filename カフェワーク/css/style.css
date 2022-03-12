@@ -192,8 +192,11 @@ body{
     /* width: 300px; */
     /* padding: 30%; */
 }
-.img3 img {
+.img3{
     max-width: 100%;
+}
+.img3 img {
+    /* max-width: 100%; */
     border-top-right-radius: 50px;
 }
 .img3 h3{
