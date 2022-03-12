@@ -111,10 +111,11 @@ body{
 
 .hp1{
     font-size: 82px;
-    padding: 57px;
+    padding: 24px;
     /* margin: 0 auto;
     text-align: center; */
     line-height: 1.17;
+    letter-spacing: 0.1em;
 }
 .p2 {
     font-size: 23px;
@@ -136,22 +137,23 @@ body{
     /* text-align: center; */
 }
 .aboutus h2{
-    width: 136.1965px;
+    width: 272.3936px;
     padding: 30.5px 0 30.5px 0;
     /* margin: 0 auto;
     text-align: left; */
 }
 /* 左の画像↓ */
 .aboutus img{
-    width: 100%;
-    border-bottom-right-radius: 32%;
+    max-width: 59%;
+    border-bottom-right-radius: 100px;
     margin: 0 auto;
     text-align: center;
 }
 .about_us_wrap{
-    max-width: 1000px;
-    height: 38.5px;
-    padding: 0 10px 0 80px;
+    /* max-width: 1000px; */
+    max-width: 41%;
+    /* height: 38.5px; */
+    padding: 0 10% 0 10%;
 }
 /* .about_us_wrap img{
     max-width:  50%;
@@ -178,7 +180,7 @@ body{
     margin: 0 auto; */
     margin: 0 auto;
     text-align: center;
-    width: 75.6925px;
+    width: 151.3853 pxpx;
     padding: 108px 0 50px 0;
 }
 .menu_wrap {
@@ -192,11 +194,12 @@ body{
 }
 .img3 img {
     max-width: 100%;
-    border-top-right-radius: 10%;
+    border-top-right-radius: 50px;
 }
 .img3 h3{
     font-size: 38px;
-    margin: -10px ;
+    color: #d30202;
+    margin-top: -20px ;
     padding-left: 10px;
 
 }
@@ -204,6 +207,7 @@ body{
     margin-top:20px;
     line-height:1.47;
     width: 300px;
+    font-size: 17px;
 }
 
 /* GALLERY 横並び画像５枚 */
@@ -211,7 +215,7 @@ body{
 .gallery{
     text-align: center;
     margin: 0 auto;
-    width: 122.5915px;
+    width: 245.1846px;
     padding: 95px 0 25px 0;
     
 }
@@ -219,37 +223,44 @@ body{
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    width: 1920px;
+    /* width: 1920px; */
+}
+.gallery_wrap img{
+    width: 20%;
 }
 
 /* EVENT */
 .event {
     text-align: center;
     margin: 0 auto;
-    width: 86.912px;
+    width:173.8252px;
     padding: 60px 0 20px 0;
 }
 .event_wrap{
     border: solid 2px black;
     box-sizing: border-box;
-    line-height: 1.95;
+    /* line-height: 1.95; */
     display: flex;
     margin:0 auto;
     background-color: #fff;
     width: 1000px;
     height: 200px;
-    padding: 45px 10px;
-    text-decoration: underline black;
+    padding: 20px 20px;
+    /* text-decoration: underline black; */
     
    
 }
-.lis1 {
+.list1 {
     padding: 0 28px 0 160px;
+    font-size: 23px;
+    line-height: 1.95;
 
 }
-.lis2 {
-    /* padding: 0x 28px 0 140px; */
-    margin: 0 auto;
+.list2 {
+    /* margin: 0 auto; */
+    text-decoration: underline black;
+    font-size: 23px;
+    line-height: 1.95;
 
 }
 
@@ -257,34 +268,43 @@ body{
 .access {
     text-align: center;
     margin: 0 auto;
-    width: 106.9175px;
+    width: 213.8354px;
     padding: 60px 0 20px 0;
 }
-.map{
+/* .map{
     width: 1920px;
-}
+} */
 
 .map iframe{
     width: 100%;
     height: 400px;
 }
-
 /* フッター */
 footer{
     background-color: #fff;
 }
 .footer-wrap{
     display: flex;
-    text-align: center;
-    width: 1000px;
-    padding: 0 10px;
-    margin: 0 auto;
+    /* text-align: center; */
+    width: 1920px;
+    padding: 80px 10px;
+    /* margin: 0 auto; */
+}
+.footer-wrap h1{
+    /* text-align: left; */
+    padding-left: 458px;
+    
+    
 }
 .footer-p{
+    /* max-width: 1000px; */
     padding-left: 69px ;
     line-height: 1.95 ;
-    text-align: left;
+    font-size: 20px;
+    /* text-align: left; */
+    
 }
+
 .mark-c{
     text-align: center;
     margin: 0 auto;
