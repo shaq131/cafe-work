@@ -134,66 +134,52 @@ body{
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 10px;
-    /* text-align: center; */
 }
 .aboutus h2{
-    width: 272.3936px;
     padding: 30.5px 0 30.5px 0;
-    /* margin: 0 auto;
-    text-align: left; */
 }
 /* 左の画像↓ */
 .aboutus img{
     max-width: 59%;
     border-bottom-right-radius: 100px;
-    margin: 0 auto;
-    text-align: center;
+    /* margin: 0 auto;
+    text-align: center; */
 }
 .about_us_wrap{
-    /* max-width: 1000px; */
-    max-width: 41%;
-    /* height: 38.5px; */
-    padding: 0 10% 0 10%;
+    width: 41%;
+    padding: 0 0 0 9%;
 }
-/* .about_us_wrap img{
-    max-width:  50%;
-} */
+
 .h3 {
     font-size: 44px;
-    width: 349.5px;
-    height: 115.9px;
+    /* width: 349.5px;
+    height: 115.9px; */
     line-height: 1.38;
     padding-bottom: 33px;
 }
 .p4 {
     font-size: 16px;
-    width: 410px;
-    height: 292px;
+    /* width: 400px;
+    height: 292px; */
     line-height: 1.62;
 }
 
 /* MENU メニューの下　画像横並び３つ コーヒー、麺、ケーキの順 */
-.menu {
-    /* max-width: 1000px;
-    padding: 0 10px;
-    box-sizing: border-box;
-    margin: 0 auto; */
-    margin: 0 auto;
-    text-align: center;
-    width: 151.3853 pxpx;
-    padding: 108px 0 50px 0;
-}
 .menu_wrap {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 10px;
-    /* width: 300px; */
-    /* padding: 30%; */
+    
+}
+.menu  h2{
+
+    margin: 43px auto 43px auto;
+    width: 151px;
 }
 .img3{
-    max-width: 100%;
+    max-width: 30%;
 }
 .img3 img {
     /* max-width: 100%; */
@@ -209,7 +195,6 @@ body{
 .img3 p{
     margin-top:20px;
     line-height:1.47;
-    width: 300px;
     font-size: 17px;
 }
 
@@ -239,6 +224,7 @@ body{
     width:173.8252px;
     padding: 60px 0 20px 0;
 }
+
 .event_wrap{
     border: solid 2px black;
     box-sizing: border-box;
@@ -246,12 +232,9 @@ body{
     display: flex;
     margin:0 auto;
     background-color: #fff;
-    width: 1000px;
-    height: 200px;
-    padding: 20px 20px;
-    /* text-decoration: underline black; */
+    max-width: 1000px;
+    padding: 40px 20px;
     
-   
 }
 .list1 {
     padding: 0 28px 0 160px;
@@ -288,10 +271,10 @@ footer{
 }
 .footer-wrap{
     display: flex;
-    /* text-align: center; */
-    width: 1920px;
+    max-width: 1000px;
     padding: 80px 10px;
-    /* margin: 0 auto; */
+    text-align: justify;
+    
 }
 .footer-wrap h1{
     /* text-align: left; */
