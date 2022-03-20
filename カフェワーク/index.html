@@ -7,6 +7,7 @@
     <title>カフェワーク</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="カフェのサイト">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
 <body>
     <!-- ヘッダー -->
@@ -26,42 +27,64 @@
                          <li><a href="#access">ACCESS</a></li>
                          </ul>
                         </nav>
+                        <div class="sp_btn "><span></span></div>
+                        <nav class="sp_nav">
+                            <ul>
+                            <li><a href="#aboutus">ABOUT US</a></li>
+                            <li><a href="#menu">MENU</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>
+                            <li><a href="#event">EVENT</a></li>
+                            <li><a href="#access">ACCESS</a></li>
+                            </ul>
+                           </nav>
                 </div>
                 <div class="slider">
-                   <img src="images/pc_first-100.jpg" alt="店内の様子">
+                    <picture>
+                                 <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width: 767px)"> 
+                                 <img src="images/pc_first-100.jpg" alt="店内の様子">
+                    </picture>
                 </div>
                 <!-- ヘッダここまで -->
         </header>
 <!-- 1 序 -->
+<section class="top">
 <div class="pp">
               <p class="p1">Have a happy day From a cup of coffee.</p>
                
-               <h3 class="hp1">ハッピーに溢れる1日を
-                    <br>1杯のコーヒーから。
+               <h3 class="hp1"><span>ハッピーに溢れる1日を</span>
+                    <br><span>1杯のコーヒーから。</span>
                </h3>
-               <p class="p2">毎日を丁寧に大切に過ごしたい。だからこそ一杯一杯丁寧にコーヒーを入れ
-                <br>足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。</p>
+               <p class="p2">毎日を丁寧に大切に過ごしたい。<br class="p2p">だからこそ一杯一杯丁寧にコーヒーを入れ
+                <br>足を運んでくれるお客さんには落ち着く空間と<br class="p2p">こだわりのコーヒーを提供したい。</p>
 </div>
+</section>
+
             
  <!-- 2 ABOUT  写真と文字横並び-->
-              <div class="aboutus">
-                  <img id="aboutus"  src="images/pc_about-100.jpg" alt="3杯のコーヒー">
-                  <div class="about_us_wrap">
+              <div class="about_all">
+                      <h2><img class="block_sp" src="images/about_us@2x.png"></h2>
+                      <img class="coffee_img" src="images/pc_about-100.jpg" alt="3杯のコーヒー">
+                  <section class="about_us_wrap">
                      <h2><img id="aboutus" src="images/about_us@2x.png" alt="about us文字"></h2>
                       <h3 class="h3">私たちが提供する
                           <br>こだわりのコーヒー</h3>
                       <p class="p4">サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。</p>
-                  </div>
+                  </section>
+              </div>
                 
                     
              </div>
 <!-- 3 MENU ３枚横並び -->
                       <div class="menu">
-                           <h2 id="menu"><img src="images/menu@2x.png" alt="メニュー文字画像"></h2>
+                           <h2 id="menu">
+                               <img src="images/menu@2x.png" alt="メニュー文字画像">
+                            </h2>
                       </div>
             <div class="menu_wrap">
                 <div class="img3">
+                   
                      <img src="images/pc_menu_drink-100.jpg" alt="ドリンクメニュー画像">
+            
                      <h3>Drink</h3>
                      <p>ドリンクメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
                </div>
@@ -80,7 +103,8 @@
 
             </div>
 <!--4 GALLERY 幅１９２０  -->
-         <h2 class="gallery" id="gallery"><img src="images/gallery@2x.png" alt="ギャラリー文字画像"></h2>
+<section class="gallery" id="gallery">
+         <h2><img src="images/gallery@2x.png" alt="ギャラリー文字画像"></h2>
          <div class="gallery_wrap">
              <img src="images/pc_gallary_01-100.jpg" alt="ギャラリー1">
              <img src="images/pc_gallary_02-100.jpg" alt="ギャララー２">
@@ -88,22 +112,32 @@
              <img src="images/pc_gallary_04-100.jpg" alt="ギャラリー4">
              <img src="images/pc_gallary_05-100.jpg" alt="ギャラリー5">
          </div>
+</section>
 
 <!-- 5 EVENT  -->
-         <h2 class="event" id="event"><img src="images/event@2x.png" alt="イベント文字画像"></h2>
+<section class="event-top" id="event">
+    <h3 class="event-title">
+        <img src="images/event@2x.png" alt="イベント">
+    </h3>
+    <div>
+        <ul class="event-c">
+            <li>2020.06.23 <br><span class="event-t">7月はイベント出店のためお休みします</span></li>
+            <li>2020.03.15 <br><span class="event-t">春の新商品新発売。話題のあのブランドとコラボ</span></li>
+            <li>2020.02.06 <br><span class="event-t">コーヒーの日で30％OFFイベントを開催［3日間限定］</span></li>
+        </ul>
+
+    </div>
+
+</section>
+
+         <!-- <h2 class="event" id="event"><img src="images/event@2x.png" alt="イベント文字画像"></h2>
          <div class="event_wrap">
-             <div class="list1">
-                <p><a href="">2020.06.23</a></p>
-                 <br><p><a href="">2020.03.15</a></p>
-                 <br><p><a href="">2020.02.06</a></p>
-             </div>
-             <div class="list2">
-                 <p><a href="">7月はイベント出店のため0/0お休みします</a></p>
-                 <br><p><a href="">春の新商品新発売。話題のあのブランドとコラボ</a></p>
-                 <br><p><a href="">コーヒーの日で30％OFFイベントを開催［3日間限定］</a></p>
-             </div>
-            
-         </div>
+                    <ul class="list1">
+                     <li>2020.06.23 <br><span class="event-t">7月はイベント出店のためお休みします</span></li>
+                     <li>2020.03.15 <br><span class="event-t">春の新商品新発売。話題のあのブランドとコラボ</span></li>
+                     <li>2020.02.06 <br><span class="event-t">コーヒーの日で30％OFFイベントを開催［3日間限定］</span></li>
+                   </ul>
+         </div> -->
 
 
 <!-- ACCESS  -->
@@ -126,7 +160,7 @@
             
           </div>
 
-}
+
           <h4 class="mark-c">© 2021 DESIGN CAFE</h4>
 
 
@@ -137,6 +171,16 @@
             </a>
         </p>
     </footer>
+    <script>
+        $(function() {
+            $(".sp_btn,.sp_nav li").click(function(){
+                $(".sp_nav").fadeToggle();
+                $(".sp_btn").toggleClass("open");
+
+            });
+            
+        });
+    </script>
     
 </body>
 
