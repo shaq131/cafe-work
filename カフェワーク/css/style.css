@@ -142,6 +142,9 @@ body{
     width: 50%;
 }
 .about-p img{
+    /* position: absolute;
+    left: 0;
+    top: 0; */
     width: 100%;
     align-self: flex-start;
 
