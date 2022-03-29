@@ -122,9 +122,9 @@ body{
     padding: 33px 20px 80px 20px;
     letter-spacing: 0.1em;
 }
-.p2p{
+/* .p2p{
     display: none;
-}
+} */
 
 /* ABOUT US 写真と文字横並び*/
 
@@ -146,7 +146,7 @@ body{
 }
 .about_us_wrap {
     width: 50%;
-    padding: 0 0 0 9%;
+    padding: 0 0 0 5%;
 }
 /* 左の画像↓ */
 .block_sp{
@@ -226,11 +226,25 @@ body{
     justify-content: space-between;
 
 }
-.gallery_wrap img{
+/* .gallery_wrap img{
     width: 20%;
-}
+} */
 /* 矢印調整 */
-.gallery_wrap .slick-next{
+.gallery_wrap .slick-arrow{
+    position: absolute;
+    top:50%;
+    transform: translateY(-16px);
+}
+.slide-next-arrow-r{
+    right: 420px;
+}
+.slide-prev-arrow-l{
+    left: 420px;
+    z-index: 100;
+}
+
+/* 以下デフォルト矢印 */
+/* .gallery_wrap .slick-next{
     right:40px!important;
   }
   .gallery_wrap .slick-prev{
@@ -242,7 +256,7 @@ body{
 
   .gallery_wrap .slick-prev:before, .slick-next:before {
       font-size: 40px;
-  }
+  } */
 /* EVENT */
 .event-top {
     margin: auto;
@@ -342,8 +356,8 @@ footer{
     .sp_btn {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 10px;
+        top: 32px;
+        right: 28px;
         height: 30px;
         cursor: pointer;
         z-index: 100;
@@ -428,15 +442,17 @@ footer{
         font-size: 4vw;
     }
     .hp1{
-        font-size: 8.5vw;
+        font-size: 9.6vw;
+        letter-spacing: 0.02em;
     }
     .p2{
-        font-size: 4.9vw;
+        font-size: 4.95vw;
         line-height: 1.875;
         text-align: center;
         margin:  auto;
     }
-    .p2 .p2br{display: none;}
+    .p2p{
+        display: none;}
 
     /* about */
     .about_all {
@@ -459,7 +475,7 @@ footer{
 
     }
     .about_us_wrap{
-        width: 100%;
+        width: 95%;
         box-sizing: border-box;
     }
     .about_us_wrap h2 {
@@ -472,13 +488,14 @@ footer{
        font-size: 8vw;
        font-weight: normal;
        text-align: left;
-       width: 600px;
+       /* width: 600px; */
    }
    .p4{
        font-size: 3.75vw;
      display: inline-block;
-     text-align: left;
-     margin: 0 15% 0 0;
+     text-align: justify;
+     line-height: 1.75;
+     
 
 
    }
@@ -515,6 +532,12 @@ footer{
     .gallery h2{
         padding: 0 0 25px 0;
     }
+    .slide-next-arrow-r{
+        right: 10px;
+    }
+    .slide-prev-arrow-l{
+        left: 10px;
+    }
 
 
 
@@ -526,7 +549,10 @@ footer{
         width: 100.8613 px;
     }
     .event-c li{
+        /* font-size 4.5 */
         font-size: 4.5vw;
+        line-height: 1.2;
+        margin: 15px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
